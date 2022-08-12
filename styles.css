@@ -29,7 +29,7 @@ h1
 .center
 {
     margin: auto;
-    width: 60%;
+    width: auto;
     padding: 10px;
 }
 
@@ -37,7 +37,7 @@ form
 {
     background-color: aliceblue;
     box-shadow: 0 0 10px black;
-    width: 1050px;
+    width: auto;
     margin: 5px;
     padding: 25px;
 }
@@ -45,7 +45,7 @@ form
  /* Honesty Statement CSS STYLES */
  #honest
  {
-    width: 1050px;
+    width: auto;
     padding: 15px;
     text-align: justify;
     box-shadow: 0 0 15px black;
@@ -139,7 +139,7 @@ form
     font-size: medium;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
-    width: 1050px;
+    width: auto;
     padding: 2px 16px;
     background-color: whitesmoke;
     box-shadow: 0 0 10px wheat;
@@ -179,7 +179,7 @@ form:hover
   display: flex;
   box-shadow: 0 0 15px black;
   background-color: white;
-  width: 1050px;
+  width: auto;
 }
 
 .edu-card:hover
@@ -199,7 +199,7 @@ form:hover
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
+  width: auto;
 }
 
 #edu-cis .edu-card-left
@@ -254,14 +254,14 @@ form:hover
 
 #submit{
     margin: 10px;
-    width: 100px;
+    width: auto;
     height: 40px;
     border-radius: 0%;
 }
 
 #reset{
     margin: 10px;
-    width: 100px;
+    width: auto;
     height: 40px;
     border-radius: 0%;
 }
