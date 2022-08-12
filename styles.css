@@ -11,16 +11,6 @@ h1
     font-size: 30px;
 }
 
-/* footer{
-    background-color: aliceblue;
-    margin-top: 40px;
-    padding: 10px;
-    width: 1060px;
-    text-align: right;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
-} */
-
 #bodyps
 {
     background-color: rgb(54, 85, 188);
@@ -29,7 +19,7 @@ h1
 .center
 {
     margin: auto;
-    width: auto;
+    width: 80%;
     padding: 10px;
 }
 
@@ -37,15 +27,19 @@ form
 {
     background-color: aliceblue;
     box-shadow: 0 0 10px black;
-    width: auto;
-    margin: 5px;
+    width: 80%;
     padding: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
 }
 
  /* Honesty Statement CSS STYLES */
  #honest
  {
-    width: auto;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
     padding: 15px;
     text-align: justify;
     box-shadow: 0 0 15px black;
@@ -103,7 +97,7 @@ form
     box-shadow: 0 0 8px black;
 }
 
-.ImpPart:hover
+.about-info:hover
 {
     box-shadow: 2px 2px 2px 2px black;
 }
@@ -120,6 +114,7 @@ form
     font-family: Arial, Helvetica, sans-serif;
     width: 150px;
     height: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
     box-shadow: 0 0 8px black;
 }
@@ -131,22 +126,17 @@ form
     margin-right: 150px;
 }
 
-.ImpPart{
+.about-info{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5em;
-    text-align: justify;
-    font-size: medium;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
-    width: auto;
     padding: 2px 16px;
     background-color: whitesmoke;
     box-shadow: 0 0 10px wheat;
     transition: 0.3s;
 }
 
-.ImpPart:hover
+.about-info:hover
 {
     box-shadow: 2px 2px 2px 2px black;
 }
@@ -156,20 +146,20 @@ form:hover
     box-shadow: 2px 2px 2px 2px black;
 }
 
-#BasicInfo div
+#basic-info div
 {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
   
-#BasicInfo h5
+#basic-info h5
 {
     margin-top: 0px;
     grid-template-rows: 1fr;
-    font-size: medium
+    font-size: medium;
 }
 
-#BasicInfo p
+#basic-info p
 {
     margin-top: 0px;
 }
@@ -179,7 +169,8 @@ form:hover
   display: flex;
   box-shadow: 0 0 15px black;
   background-color: white;
-  width: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .edu-card:hover
@@ -200,6 +191,7 @@ form:hover
   justify-content: center;
   align-items: center;
   width: auto;
+
 }
 
 #edu-cis .edu-card-left
@@ -270,3 +262,25 @@ form:hover
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
 }
+
+@media screen and (max-width:800px){
+
+    #landing,
+    #infograph,
+    #education,
+    #contact{
+    padding: 10px;
+    }
+  
+    .about-info{
+      grid-template-columns: 1fr;
+    }
+  
+    #basic-info div{
+      grid-template-columns: 1fr 4fr;
+    }
+  
+    #basic-info{
+      margin-top: 10px;
+    }
+  }
